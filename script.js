@@ -62,7 +62,8 @@ function storeValues() {
   $("#hour-17>.description").val(fiveEvent);
 }
 
-var currentHour = moment().format("HH");
+var currentHour = 15;
+// moment().format("HH");
 
 console.log(currentHour);
 $(".description").css("border-style", "dashed");
